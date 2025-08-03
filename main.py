@@ -10,6 +10,16 @@ from huggingface_hub import InferenceClient
 from typing import List, Dict, Optional
 import platform
 
+# Just a simple comment block in your main file:
+"""
+ARCHITECTURE OVERVIEW:
+- EnhancedChatInterface: Main GUI class
+- get_chat_completion(): Handles multi-agent iteration
+- Agent models defined in self.agents list
+- Conversation context maintained in self.conversation_context
+- Threading used for non-blocking API calls
+"""
+
 # Set appearance mode and color theme
 ctk.set_appearance_mode("dark")  # Modes: "System" (standard), "Dark", "Light"
 ctk.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
