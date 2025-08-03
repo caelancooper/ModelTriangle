@@ -51,7 +51,7 @@ export API_KEY="your_together_ai_api_key_here"
 pip install -r requirements.txt
 
 # Run the application
-python pyramid_chat.py
+python main.py
 ```
 
 ### Setting Up Your API Key
