@@ -57,8 +57,7 @@ python pyramid_chat.py
 #### Option 2: Clone Repository
 ```bash
 # Clone the repository
-git clone https://github.com/[your-repo]/pyramid-conference.git
-cd pyramid-conference
+git clone https://github.com/caelancooper/ModelTriangle.git
 
 # Set environment variable
 export API_KEY="your_together_ai_api_key_here"
@@ -142,11 +141,9 @@ We invite contributions and feature additions in the following areas:
 
 ```
 pyramid-conference/
-├── pyramid_chat.py          # Main application file
+├── main.py          # Main application file
 ├── requirements.txt         # Python dependencies
-├── README.md               # This file
-├── examples/               # Example conversations and use cases
-└── docs/                   # Additional documentation
+└── README.md               # This file
 ```
 
 ## 🛠️ Dependencies
@@ -174,9 +171,7 @@ This project is licensed under the Apache 2.0 License - see the LICENSE file for
 ## 🆘 Support
 
 For technical support or business inquiries:
-- 📧 Email: support@pyramid-conference.ai
-- 📚 Documentation: [Full Documentation](https://docs.pyramid-conference.ai)
-- 💬 Community: [Discord Server](https://discord.gg/pyramid-conference)
+- 📧 Email: caelancooper100@gmail.com
 
 ## 🔒 Privacy & Security
 
