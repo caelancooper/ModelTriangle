@@ -39,22 +39,7 @@ The system leverages three complementary models, each chosen for specific streng
 
 ### Installation & Setup
 
-#### Option 1: Direct Download & Run
-```bash
-# Download the application
-curl -O https://raw.githubusercontent.com/[your-repo]/pyramid-conference/main/pyramid_chat.py
-
-# Set your Together.ai API key
-export API_KEY="your_together_ai_api_key_here"
-
-# Install dependencies
-pip install customtkinter pandas huggingface-hub
-
-# Run the application
-python pyramid_chat.py
-```
-
-#### Option 2: Clone Repository
+Clone Repository
 ```bash
 # Clone the repository
 git clone https://github.com/caelancooper/ModelTriangle.git
